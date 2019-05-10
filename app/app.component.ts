@@ -5,7 +5,11 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
   template: `
     <div class="app">
-      {{ title }}
+      <h1 [innerHTML]="title"></h1>
+      <img [src]="logo">
+      <div>
+        <input type="text" [value]="name">
+      </div>
     </div>
   `
 })
@@ -13,6 +17,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   title: string;
+  name: string = 'Todd'
+  isHappy: boolean = true;
+  numberOne: number = 1;
+  numberTwo: number = 2;
+  logo: string = 'img/logo.svg'
 
   constructor() {
     this.title = 'Ultimate Angular';
