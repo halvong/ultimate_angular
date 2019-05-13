@@ -1,8 +1,10 @@
 #Ultimate AngularJS
-5/10/2019, Friday
-Event binding
+5/13/2019, Mon
+
+NGIF
 
 http://127.0.0.1:4000/
+
 
 main.ts <- app.module.ts <- app.component.ts
   |
